@@ -3,7 +3,6 @@
  /// adding a silly comment, just for the sake of it :)
 fn main() {
   print("Hello, world!");
-  print("Goodbye, world!");
 }
 
 // a function that prints a message
