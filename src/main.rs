@@ -2,14 +2,12 @@
 
  /// adding a silly comment, just for the sake of it :)
 fn main() {
-  print_hello();
-  print_bye();
+  print("Hello, world!");
+  print("Goodbye, world!");
 }
 
-fn print_hello() {
-    println!("Hello, world!");
+// a function that prints a message
+fn print(m: &str) {
+    println!("{m}");
 }
 
-fn print_bye() {
-    println!("Goodbye, world!");
-}
